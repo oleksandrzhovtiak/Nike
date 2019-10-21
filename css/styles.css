@@ -1,0 +1,135 @@
+
+
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+body{
+	background: url("../images/background2.jpg");
+	background-size: 100%;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+	width: 100%;
+	max-width: 685px;
+	max-height: 390px;
+	background:#111a28;
+	margin: 100px auto;
+	border-radius: 7px;
+	position: relative;
+	box-shadow: 90 
+
+}
+ .shoes__block__logo{
+	width: 65px;
+	height: 33px;
+	left: 20px;
+	top: 25px; 
+	position: absolute;
+} 
+.shoes__block__shoes{
+	left: 35px;
+	top: 125px;
+	position: absolute;
+}
+.shoes__block__ellipse{
+	left: 175px;
+	bottom: 20px;
+	position: absolute;
+}
+
+.shoes__info_name{
+	font-size: 24px;
+	line-height: 26px;
+	letter-spacing: .2px;
+	color: #e1e1e1;
+	margin-top: 75px;	
+	font-weight: 100;
+}
+.shoes__info{
+	width: 35.8%;
+	height: 390px;
+	margin: 0 0 0 440px;
+	display: inline-block; 
+
+}
+
+.shoes__info_info{
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: .2px;
+	font-weight: 100;
+	color: #4c525a;
+}
+.shoes_info__stars{
+	margin-top: 25px;
+	margin-right: 170px;
+	
+
+}
+.shoes__info--select{
+	margin-top: 25px;
+	margin-left: 0;
+	border: .5px solid #4c525a;
+	background: #111a28;
+	color: #e1e1e1;
+	padding: 8px 10px 8px 15px;
+	opacity: 26%;
+	/* position: relative;
+	top:25px; */
+}
+.shoes__info--select:hover{
+	background: #4c525a;
+}
+.shoes__info_button{
+	margin-top: 30px;
+	color:#e1e1e1;
+	font-size: 14px;
+	padding: 15px 50px;
+	border: .5px solid #e1e1e1;
+	background: #4c525a;
+	
+}
+
+.shoes__info_button:focus{
+	box-shadow: inset 0 2px 5px 0 rgba(0,0,0, 1.5);
+
+}
+
+
+
+
+
+
+
+
